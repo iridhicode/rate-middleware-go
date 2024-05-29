@@ -1,0 +1,27 @@
+# Ignore the .env file
+.env
+
+# Ignore the compiled binary
+ratelimiter
+
+# Ignore the Go vendor directory
+vendor/
+
+# Ignore Go test cache
+*.test
+
+# Ignore Go coverage files
+*.out
+
+# Ignore MacOS specific files
+.DS_Store
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore any other files or directories specific to your project
+# Add them below this line
